@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TRICKY MATH</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="centerBox">
+          <h1>TRICKY MATH</h1>
+      
+          <p><h5>What is Tricky Math?</h5></p>    <!--I set the title h5 and h6 inside of paragraphs to move them to a new line-->
+          <p>Tricky Math is dedicated to children (ages 8-10), but it can be a good brain training even for adults.</p>
+          <p>The user will find 25 math exercises based on logical thinking and text understanding.</p> 
+          <p>If someone is preparing for the Zrinyi Ilona Math Competition, then it is the right place for learning and practicing.</p>
+          <p><h5>What you need to know</h5></p>
+          <p>Basic mathematical operations like addition, subtraction, multiplication, and division.</p>
+          <p>Basic knowledge a second grade student should know.</p>
+          <p>Examples: the days of the week; the months of a year; number of second in a minute;</p>
+          <p>number of hours in a day; telling the time; measurement of length, mass and of liquid, etc.</p>
+          
+          <p><h6>Using this application will make easier to improve skills and develop abilities.</h6></p>  <!--I set the title h5 and h6 inside of paragraphs to move them to a new line-->
+          
+  
+                                      <!--Try Now button-->
+         
+            <p><button id="buttonTryNow">TRY NOW!</button></p>  <!--I set the button inside of paragraphs to move them to a new line-->
+        </div> 
+        <!-------------------------MODAL WINDOW--------------->
+
+        
+        
+    <div class="modal" id="myModal">      <!--start  modal for choosing GAME MODE-->
+        
+          <!--close button-->
+          <button id="closeButton" class="close" title="Close">&times;</button>              <!--puts the x to the closure button  -->
+
+
+      <!------------------Modal content--------------->
+
+        <div class="modal-content">
+                <div class="titleContainer">
+                    <p id ="competitionMode" id="gameMode2">Competition Mode</p>     <!--title of this mode -->
+                </div> 
+
+                  <!--the list of conditions-->
+                <div class="rules">        
+                    <ul>
+                        <li>A 60 minutes timer is set.</li>
+                        <li>You can see your points only after you submitted the last answer.</li>
+                        <li>The test starts with easy exercises and continuously gets more difficult.</li>
+                        <li>You can submit exercises without choosing an answer.</li>
+                        <li>Scoring formula: <span id="formula">4*Correct - Wrong + Exercises.</span>     
+                        <p id="formulaExample">     Example: 4*25 - 0 + 25 = 125 points. </p></li>    <!--I set a paragraph to put is on separate line -->
+                    </ul> 
+                </div> 
+                         
+                  <!--start button-->
+                <div class="buttonContainer">
+                    <button id="startButton">START</button>
+                </div>  
+        </div>
+
+        
+   <!--END  modal for GAME MODE rules-->
+
+
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
+
+
+
